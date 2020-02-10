@@ -1,0 +1,72 @@
+// ====Variables ===== 
+// Base colors
+$primary : #597dfc;
+$secondary :#2FC1E1;
+$info : #00cae3;
+$success : #60ce83;
+$warning : #ff9e0f;
+$danger : #ff5757;
+
+// white to black with gray color:
+$white : #fff;
+$white_light : #fafafa;
+$white_dark:#f3f3f3;
+$white_darker : #ededed;
+$gray_1 : #e3e3e3;
+$gray_2 :#d9d9d9;
+$gray_3 : #cccccc;
+$dark : #171717;
+$black : #000;
+
+// Text Color
+$text_light : #7D8091;
+$text_dark:#1c2238;
+
+// Border
+$border_1 :#eee;
+$border_2 :#ddd;
+$border_3 :#ccc;
+$border_4 :#bbb;
+$border_5 :#a5a5a5;
+$border_6 :#f5f7fd;
+
+$border_primary : rgba($primary, 0.4);
+$border_secondary :rgba($secondary, 0.4);
+$border_info: rgba($info,.4);
+$border_success:rgba($success, .4);
+$border_warning : rgba($warning, .4);
+$border_danger :rgba($danger, .4);
+ 
+
+// social color
+$twitter: #38aae2;
+$facebook: #34589d;
+$youtube: #f50104;
+$insta_1: #f79515;
+$insta_2: #e40153;
+$insta_3: #8a2aab;
+$linkedin: #0077b5;
+$whatsapp: #7ed321;
+
+
+
+
+
+// Common css
+body{
+    font-family: "Poppins",sans-serif;
+    background-color: $body_bg;
+    color: $text_color;
+    font-size: 1rem; //16px
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color: $text_dark;
+    font-weight: 600;
+    line-height: 1.5;
+}
