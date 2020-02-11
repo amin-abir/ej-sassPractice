@@ -17,6 +17,7 @@ $gray_2 :#d9d9d9;
 $gray_3 : #cccccc;
 $dark : #171717;
 $black : #000;
+$red : #f75759;
 
 // Text Color
 $text_light : #7D8091;
@@ -55,8 +56,8 @@ $whatsapp: #7ed321;
 // Common css
 body{
     font-family: "Poppins",sans-serif;
-    background-color: $body_bg;
-    color: $text_color;
+    //background-color: $body_bg;
+    color: $text_light;
     font-size: 1rem; //16px
 }
 
